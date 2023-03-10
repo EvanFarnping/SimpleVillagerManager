@@ -1,0 +1,7 @@
+name: RemoveVillagers
+version: '${project.version}'
+main: me.evanf.removevillagers.RemoveVillagers
+api-version: 1.19
+authors: [ Evan_Farnping ]
+description: Remove villagers from the chunk when the chunk loads in. 
+  There are also other villager related things that can be configured if desired.

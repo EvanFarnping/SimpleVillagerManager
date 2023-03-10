@@ -1,0 +1,16 @@
+# Removes all villagers only if the chunk is a newly loaded chunk.
+only_on_new_chunk: false
+
+# Removes all villagers when ANY chunk is loaded, new or old.
+on_any_chunk: true
+
+# Prevent villagers from breeding.
+disable_breed: true
+
+# Prevent villagers from being created from zombie villagers.
+disable_transform: true
+
+# Disable the villagers inventory GUI (player can't access villager inventory).
+disable_right-click: true
+
+# NOTE, for optimization purposes, if on_any_chunk is true, you should also put only_on_new_chunk as false
